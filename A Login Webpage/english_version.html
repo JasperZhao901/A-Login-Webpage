@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style type="text/css">
+            *{margin: 0; padding: 0; text-decoration: none; }
+            html {height: 100%;}
+            body {background: url(image/bg.jpeg) no-repeat center; background-size:cover; height: 100%;}
+            .loginNode {width: 677px; height: 916px; position: absolute; left: 50%; top: 50%; margin-left: -338.5px;
+                       margin-top: -458px; background: white; border-radius: 10px; }
+            .loginNode .loginTopText {font-size: 50px; line-height: 50px; height: 50px; text-align:center; margin-top: 97px; }
+            .loginNode .loginUserText {font-size: 18px; line-height: 18px; height: 18px; text-indent: 83px; margin-top: 79px; }
+            .loginNode .loginUserNode {height: 80px; width: 526px; margin: 0 auto; border-bottom: 3px solid #dbdbdb;
+                                       background: url(image/user_login.gif) no-repeat 17px 27px;}
+            .loginNode .userInput {height: 100%; float: left; margin-left: 58px; border: none; outline: none; line-height: 80px;
+                                   font-size: 22px; color: #aeaeae; width: 468px;}
+            .loginNode .loginPassword {margin-top: 40px}
+            .loginNode .loginPassNode {background-image:url(image/pass_login.gif);}
+            .loginNode .loginSer {height: 19px line-height: 19px; margin-top: 21px;}
+            .loginNode .loginSer a {color: #676767; float: left; margin-left: 507px; font-size: 19px;}
+            .loginNode .loginButton {width: 526px; height: 68px; margin:0 auto; line-height: 68px; text-align: center; color: white;
+                                     background: url(image/bg-button.gif) no-repeat repeat; border-radius: 34px; margin-top: 69px; cursor: pointer}
+            .loginNode .otherPlatforms {text-align: center; line-height: 20px; height: 20px; color: #676767; margin-top:78px;}
+            .loginNode .otherPlatforms a {font-size:19px; color: #9d9e96}
+            .loginNode .icons {margin-top:39px; text-align: center;}
+            .loginNode .icons img {margin: 0 7px;}
+            .loginNode .signUp {margin-top: 40px; text-align: center;}
+            .loginNode .signUp a { color: #343724}
+
+        </style>
+    </head>
+
+    <body>
+       <div class="loginNode">
+           <div class="loginTopText"> <strong>Login</strong> </div>
+           <div class="loginUserText"> Username </div>
+           <div class="loginUserNode">
+               <input type="text" value="Enter Username" class="userInput">
+           </div>
+
+           <div class="loginUserText loginPassword"> Password </div>
+           <div class="loginUserNode loginPassNode">
+               <input type="text" value="Enter Password" class="userInput">
+           </div>
+
+           <div class="loginSer">
+               <a href="#">Forgot password?</a>
+           </div>
+
+           <div class="loginButton">Sign In</div>
+           <div class="otherPlatforms">
+               <a href="#">
+               or
+               </a>
+           </div>
+           <div class="icons">
+               <a href="#"> <img src="image/wx.gif"> </a>
+               <a href="#"> <img src="image/qq.gif"> </a>
+               <a href="#"> <img src="image/wb.gif"> </a>
+           </div>
+
+           <div class="signUp">
+               <a href="#">
+               Sign Up
+               </a>
+           </div>
+       </div>
+
+    </body>
+</html>
